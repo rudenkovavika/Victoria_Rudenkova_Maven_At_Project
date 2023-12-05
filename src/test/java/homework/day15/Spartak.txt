@@ -1,0 +1,12 @@
+1. //img[@alt="логотип Спартак"] или //*[contains(@src,"/upload/logo.png")]
+2. //a[@href="/products/Impresso/"] или //*[contains(@href,"Impresso")]
+3. //div[@class="top-h-row"]//a[@href="/partners/"]/span или //div[@class="header_wrap "]//a[@href="/partners/"]/span
+4. //i[@class="search fa search-btn lupa"] или //i[contains(@class,"fa search-btn lupa")]
+5. //img[@src="/include/eye.svg"] или //img[contains(@src,"/include/eye.svg")]
+6. //a[@class="header__lang__item header__lang__item_ru active"] или //div[@class="header__lang"]/a[1]
+7. //a[@href="/cn/"] или //div[@class="header__lang"]/a[4]
+8. //a[@class="download-catalog"] или //div[@class="lang-block"]/a[@href="/upload/Каталог продукции РБ 2022.pdf"]
+9. //a[@class="flex-next"] или //li[@class="flex-nav-next"]/a
+10. //ol[@class="flex-control-nav flex-control-paging"]/li[2] или //ol[@class="flex-control-nav flex-control-paging"]/li[last()-3]
+11. //div[@class="top_slider_wrapp"]//img[@src="/bitrix/templates/our_shop/images/VK.svg"] или //div[@class="top_slider_wrapp"]//a[@href="https://vk.com/spartakby"]/img
+12. //div[@class="top_slider_wrapp"]//img[@src="/bitrix/templates/our_shop/images/youtube.svg"] или //div[@class="top_slider_wrapp"]//a[@href="https://www.youtube.com/channel/UC2xYusMBxs4XkwoPotvTw4A"]/img
